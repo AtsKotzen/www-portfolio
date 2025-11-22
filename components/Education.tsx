@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GraduationCap, Award, Languages } from "lucide-react";
+import { GraduationCap, BookOpen, Languages } from "lucide-react";
 
 export default function Education() {
     return (
@@ -28,7 +28,7 @@ export default function Education() {
                         </div>
                     </motion.div>
 
-                    {/* Certificates */}
+                    {/* Courses & Knowledge */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -37,8 +37,8 @@ export default function Education() {
                         className="bg-white/5 border border-white/10 rounded-2xl p-8"
                     >
                         <div className="flex items-center gap-3 mb-6">
-                            <Award className="w-8 h-8 text-accent" />
-                            <h3 className="text-2xl font-bold text-white">Certificates</h3>
+                            <BookOpen className="w-8 h-8 text-accent" />
+                            <h3 className="text-2xl font-bold text-white">Courses & Knowledge</h3>
                         </div>
                         <div className="space-y-4">
                             <div>

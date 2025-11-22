@@ -6,7 +6,7 @@ import { ExternalLink } from "lucide-react";
 const projects = [
     {
         title: "Silvi Protocol",
-        role: "Lead Blockchain Developer",
+        role: "Blockchain Developer",
         description: "Engineered the blockchain architecture for a regenerative finance protocol on the Celo blockchain. Implemented seamless NFT minting and automated verification workflows.",
         tech: ["Solidity", "Celo", "ERC-721/1155", "Account Abstraction", "EAS"],
         highlights: ["Seamless NFT minting", "IPFS integration", "Automated verification"],

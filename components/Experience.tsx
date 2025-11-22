@@ -8,7 +8,7 @@ const experiences = [
         company: "Silvi Protocol",
         role: "Blockchain Developer",
         period: "May 2024 - Present",
-        description: "Leading blockchain architecture for regenerative finance protocol.",
+        description: "Architecturing bockchain solutions for regenerative finance protocol.",
     },
     {
         company: "Greenpill Brasil",
